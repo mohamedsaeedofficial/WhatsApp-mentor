@@ -1,14 +1,3 @@
-class AppAsset {
-
+abstract class AppAsset {
+  static const logo = 'assets/images/logo.png';
 }
-
-/**
- * echo "# xxxxx" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M maingit init
-
-git remote add origin https://github.com/mohamedsaeedofficial/xxxxx.git
-git push -u origin main
- */

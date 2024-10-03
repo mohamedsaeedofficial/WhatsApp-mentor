@@ -5,6 +5,11 @@ class LoginViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Column();
+    return const Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Center(child: Text('Login Screen'))
+      ],
+    );
   }
 }
